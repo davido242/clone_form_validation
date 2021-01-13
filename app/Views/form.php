@@ -1,6 +1,6 @@
 <div class="container">
 	<h1>User Login</h1>
-	<form class="form_control" action="success" method="GET">
+	<form class="form_control" action="success" method="REQUEST">
 		<div class="label">*Email or Phone</div>
 		<i class="fa fa-user 3x"></i>
 		<input type="text" name="name" placeholder="Username">
