@@ -1,5 +1,3 @@
-<h2>Login Successful!</h2>
-
 <?php
 	echo $username = filter_input(INPUT_POST, 'name');
 	echo $password = filter_input(INPUT_POST, 'password');
