@@ -139,13 +139,12 @@ body{
     margin: 0 0px 0px 5%;
 	}
 	input[type=submit]{
-		width: 80%;
+		width: 50%;
 		background: #000;
-		margin-left: 10%;
+		margin-left: 25%;
 		border-radius: 20px;
 	}
-	input[type=submit]:hover{
-		width: 80%;
+	input[type=submit]:hover {
 		background: gray;
 		color: #fff;
 	}

@@ -1,6 +1,6 @@
 <div class="container">
 	<h1>User Login</h1>
-	<form class="form_control" action="success" method="REQUEST">
+	<form class="form_control" action="second_sucess" method="post">
 		<div class="label">*Email or Phone</div>
 		<i class="fa fa-user 3x"></i>
 		<input type="text" name="name" placeholder="Username">
@@ -13,6 +13,6 @@
 		<div class="error_password">
 			Invalid Password Input!
 		</div>
-		<input type="submit" value="Login">
+		<input type="submit" value="Add">
 	</form>
 </div>

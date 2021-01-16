@@ -33,6 +33,7 @@ $routes->setAutoRoute(true);
 $routes->get('index/', 'Home::index');
 $routes->get('help/', 'Home::help');
 $routes->get('success/', 'Home::success');
+$routes->post('second_sucess/', 'Home::second_sucess');
 
 /**
  * --------------------------------------------------------------------

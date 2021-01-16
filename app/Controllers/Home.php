@@ -17,6 +17,11 @@ class Home extends BaseController
 		return view('valid_page');
 	}
 
+	public function second_sucess()
+	{
+		return view('second_valid_page');
+	}
+
 	//--------------------------------------------------------------------
 
 }
