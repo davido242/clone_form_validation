@@ -1,3 +1,17 @@
 <div id="row_map">
+<!-- <script type="text/javascript">
+      var count = 0;
+		function countVowels(name)
+		{
+			for (var i=0;i<name.length;i++)
+			{
+              if(name[i] == "a" || name[i] == "e" || name[i] == "i" || name[i] == "o" || name[i] == "u")
+              count = count + 1;
+			}
+		document.write("Hello " + name + "!!! Your name has " + count + " vowels.");
+		}
+   	 	var myName = prompt("Please enter your name");
+    	countVowels(myName);
+	</script> -->
 <h2>This is my nav_bar!</h2>
 </div>

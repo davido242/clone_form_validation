@@ -13,6 +13,6 @@
 		<div class="error_password">
 			Invalid Password Input!
 		</div>
-		<input type="submit" value="Add">
+		<input type="submit" value="Add" name="submit">
 	</form>
 </div>

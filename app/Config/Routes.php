@@ -32,7 +32,7 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('index/', 'Home::index');
 $routes->get('help/', 'Home::help');
-$routes->get('success/', 'Home::success');
+$routes->post('success/', 'Home::success');
 $routes->post('second_sucess/', 'Home::second_sucess');
 
 /**

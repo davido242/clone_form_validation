@@ -17,9 +17,9 @@
 
 	// connect a fbsql_database(link_identifier)
 	$dbconnect=mysqli_connect('localhost','root','','onlinemd');
-	if(mysqli_connect_errno($dbconnect)){
+	if(mysqli_connect_error($dbconnect)){
 		echo "Failed to connect";
 	}else{
-		echo "connected successfully";
+		echo "Connected successfully";
 	}
 ?>
