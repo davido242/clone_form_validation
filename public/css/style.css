@@ -98,6 +98,7 @@ body{
 		width: 80%;
 		line-height: 3rem;
 		font-size: 1.5em;
+		background: red;
 		margin: 2rem 0rem;
 	}
 	.label{
@@ -116,6 +117,7 @@ body{
 	}
 	input[type=submit]{
 		width: 80%;
+		background: green;
 	}
 }
 

@@ -6,10 +6,10 @@
 	}
 </style>
 <?php
-	// echo "Username: " . $_POST['name'] . '<br />';
-	// echo "Password: " . $_POST['password'];
-	// echo "Username: " . $_POST = ('name') . '<br />';
-	// echo "Password: " . $_POST = ('password');
+	echo "Username: " . $_POST['name'] . '<br />';
+	echo "Password: " . $_POST['password'];
+	echo "Username: " . $_POST = ('name') . '<br />';
+	echo "Password: " . $_POST = ('password');
 
 	// Real validation session_commit()
 	$name = $_POST['name'];
