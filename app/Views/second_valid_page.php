@@ -6,20 +6,22 @@
 	}
 </style>
 <?php
-	echo "Username: " . $_POST['name'] . '<br />';
-	echo "Password: " . $_POST['password'];
-	echo "Username: " . $_POST = ('name') . '<br />';
-	echo "Password: " . $_POST = ('password');
+	// echo "Username: " . $_POST['name'] . '<br />';
+	// echo "Password: " . $_POST['password'] . '<br />';
+	// echo "Username: " . $_POST['name'] . '<br />';
+	// echo "Password: " . $_POST['password'];
 
 	// Real validation session_commit()
-	$name = $_POST['name'];
-	$password = $_POST['password'];
+	
+	$user = "root";
+	$pass = "";
+	$db = "onlinemd";
 
-	// connect a fbsql_database(link_identifier)
-	$dbconnect=mysqli_connect('localhost','root','','onlinemd');
-	if(mysqli_connect_error($dbconnect)){
-		echo "Failed to connect";
-	}else{
-		echo "Connected successfully";
-	}
+	$db = new mysqli("localhost", $user, $pass, $db) or die("Unable to Connect Ogah!");
+
+	echo "Great Work OnlineMD!!";
+
+	
+
+
 ?>
